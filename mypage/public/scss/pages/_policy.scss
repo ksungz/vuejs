@@ -1,0 +1,147 @@
+//개인정보처리방침
+.policy {
+	font-size: 15px;
+	line-height: 1.8;
+	color: $color-deep-gray;
+	ol {
+		list-style: decimal;
+	}
+	ul {
+		list-style-type: disc;
+	}
+	li {
+		margin-left: 20px;
+	}
+	p {
+		margin-top: 1em;
+	}
+	p+ul {
+		margin-top: 1em;
+	}
+	.btm {
+		margin-top: 1em;
+	}
+}
+
+.policy_title_page {
+	margin-bottom: 19px;
+	font-family: $font-family-big;
+	font-size: 30px;
+	line-height: 57px;
+	letter-spacing: -1px;
+	color: $color-deeper-gray;
+}
+
+.policy_title_section {
+	margin-top: 36px;
+	margin-bottom: 11px;
+	font-family: $font-family-big;
+	font-size: 18px;
+	letter-spacing: -0.2px;
+	color: $color-deeper-gray;
+}
+
+.policy_title_sub {
+	display: block;
+	+.policy_title_sub {
+		margin-top: 0;
+	}
+	strong {
+		font-weight: normal !important;
+	}
+	p+& {
+		margin-top: 16px;
+	}
+}
+
+.comment {
+	margin-bottom: 30px;
+	font-size: 13px;
+}
+
+.policy_text_box {
+	margin-top: 1em;
+	padding: 20px;
+	border: 1px solid #e2e2e2;
+	border-radius: 3px;
+}
+
+.policy_list_box {
+	margin-top: 10px;
+	padding: 20px 50px;
+	border: 1px solid #e2e2e2;
+	font-size: 14px;
+	line-height: 2.14;
+	height: 2.14 * 4em;
+	ol li {
+		width: 50%;
+	}
+}
+
+.column {
+	position: relative;
+	top: -(2.14 * 4em);
+	left: 33.3%;
+	&.third {
+		top: -(2.14 * 8em);
+		left: 66.6%;
+	}
+}
+
+.columnbox {
+	overflow: hidden;
+	font-size: 14px;
+	[class^=column_] {
+		float: left;
+		margin-left: -1px
+	}
+	.column_3 {
+		width: $width-persent-3of12;
+	}
+	.column_4 {
+		width: $width-persent-4of12;
+	}
+	.column_6 {
+		width: $width-persent-6of12;
+	}
+}
+
+.tablebox {
+	margin: 23px 0 0;
+	border-top: 1px solid #252b34;
+	border-bottom: 1px solid #e2e2e2;
+	>dl {
+		border-left: 1px solid #e2e2e2;
+	}
+	.tablebox_th {
+		padding: 11px 20px 7px;
+		color: $color-deeper-gray;
+	}
+	.tablebox_td {
+		padding: 6px 20px 3px;
+		border-top: 1px solid #e2e2e2;
+	}
+}
+
+.partitionbox {
+	dl {
+		border-left: 1px solid #e2e2e2;
+	}
+	dt {
+		padding: 0 27px 11px;
+		color: $color-deeper-gray;
+	}
+	dd {
+		padding: 5px 27px;
+		line-height: 24px;
+	}
+}
+
+dl.row {
+	line-height: 32px;
+	dt {
+		float: left;
+		width: 15%;
+		font-weight: bold;
+	}
+}

@@ -1,0 +1,81 @@
+// portfolio
+.startup_img {
+	min-height: (216px - (36px * 2));
+	text-align: center; //상세보기 타입
+	.type_detail & {
+		width: $width-persent-4of12;
+		padding-bottom: $padding-top-card-layer - $padding-bottom-card-layer;
+	}
+	.text_logo {
+		overflow: hidden;
+		display: inline-block;
+		max-width: 260px;
+		max-height: 5.45em;
+		margin: -$padding-vertical-card 0;
+		vertical-align: middle;
+		line-height: 1.1;
+		font-family: $font-family-big;
+		font-size: 46px;
+		font-weight: 800;
+		word-break: keep-all;
+		word-wrap: break-word;
+		color: rgba(0, 0, 0, 0.25);
+		.type_link .card:hover &,
+		.type_link .card:focus &,
+		.type_link .card.on & {
+			color: rgba(0, 0, 0, 0.5);
+		}
+	}
+	.thumbnail {
+		display: inline-block;
+		width: 248px;
+		height: 144px;
+		vertical-align: middle;
+	}
+}
+
+.startup_info {
+	display: table-cell;
+	min-height: (216px - (36px * 2));
+	padding-bottom: 0;
+	vertical-align: middle;
+	.card_tag {
+		position: static;
+		margin-top: 10px;
+	}
+	.text_carddesc{
+		margin-top: 6px;
+	}
+}
+
+.startup_news {
+	margin-top: 8px;
+}
+
+.list_news {
+	overflow: hidden;
+	li {
+		&+li {
+			margin-top: 7px;
+		}
+	}
+	.title_news {
+		float: left;
+		width: $width-persent-10of12;
+	}
+	.text_date {
+		overflow: hidden;
+		text-align: right;
+		line-height: 24px;
+	}
+}
+
+#listPortfolio{
+	.card{
+		padding: 30px 31px 32px;
+		box-sizing: border-box;
+	}
+	.startup_new{
+		margin-top: 4px;
+	}
+}

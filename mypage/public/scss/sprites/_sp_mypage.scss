@@ -1,0 +1,52 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+$sp-d2sf-angle-down: (offset-x: -126px, offset-y: -124px, width: 14px, height: 8px);
+$sp-d2sf-angle-left-sm: (offset-x: -26px, offset-y: -146px, width: 22px, height: 45px);
+$sp-d2sf-angle-left-tag: (offset-x: -80px, offset-y: -146px, width: 9px, height: 15px);
+$sp-d2sf-angle-left-white-big: (offset-x: 0px, offset-y: -72px, width: 33px, height: 70px);
+$sp-d2sf-angle-right-sm: (offset-x: 0px, offset-y: -146px, width: 22px, height: 45px);
+$sp-d2sf-angle-right-tag: (offset-x: -93px, offset-y: -146px, width: 9px, height: 15px);
+$sp-d2sf-angle-right-white-big: (offset-x: -37px, offset-y: -72px, width: 33px, height: 70px);
+$sp-d2sf-angle-up: (offset-x: -144px, offset-y: -124px, width: 14px, height: 8px);
+$sp-d2sf-angle-up-fill: (offset-x: -162px, offset-y: -124px, width: 12px, height: 8px);
+$sp-d2sf-arrow-right-green: (offset-x: -74px, offset-y: -72px, width: 45px, height: 30px);
+$sp-d2sf-arrow-right-white: (offset-x: -123px, offset-y: -72px, width: 45px, height: 30px);
+$sp-d2sf-blog-sm-gray: (offset-x: -220px, offset-y: -72px, width: 17px, height: 14px);
+$sp-d2sf-blog-sm-green: (offset-x: -122px, offset-y: -106px, width: 17px, height: 14px);
+$sp-d2sf-clip-black: (offset-x: -106px, offset-y: -146px, width: 8px, height: 15px);
+$sp-d2sf-close-big: (offset-x: -208px, offset-y: -38px, width: 31px, height: 30px);
+$sp-d2sf-external-link-black: (offset-x: -133px, offset-y: -146px, width: 11px, height: 11px);
+$sp-d2sf-external-link-green: (offset-x: -118px, offset-y: -146px, width: 11px, height: 11px);
+$sp-d2sf-facebook-blue: (offset-x: -52px, offset-y: -146px, width: 10px, height: 20px);
+$sp-d2sf-facebook-gray: (offset-x: -66px, offset-y: -146px, width: 10px, height: 20px);
+$sp-d2sf-facebook-sm-blue: (offset-x: -52px, offset-y: -170px, width: 8px, height: 16px);
+$sp-d2sf-facebook-sm-gray: (offset-x: -64px, offset-y: -170px, width: 7px, height: 14px);
+$sp-d2sf-facebook-sm-white: (offset-x: -75px, offset-y: -170px, width: 7px, height: 14px);
+$sp-d2sf-instagram-gray: (offset-x: -196px, offset-y: -72px, width: 20px, height: 20px);
+$sp-d2sf-instagram-hover: (offset-x: -172px, offset-y: -72px, width: 20px, height: 20px);
+$sp-d2sf-logo-d2sf: (offset-x: 0px, offset-y: 0px, width: 239px, height: 34px);
+$sp-d2sf-logo-d2sf-color: (offset-x: 0px, offset-y: -38px, width: 204px, height: 30px);
+$sp-d2sf-share-black: (offset-x: -217px, offset-y: -106px, width: 12px, height: 12px);
+$sp-d2sf-share-white: (offset-x: -74px, offset-y: -124px, width: 12px, height: 12px);
+$sp-d2sf-tail-sharesns: (offset-x: -178px, offset-y: -124px, width: 12px, height: 8px);
+$sp-d2sf-twitter-sm-gray: (offset-x: -143px, offset-y: -106px, width: 16px, height: 13px);
+$sp-d2sf-twitter-sm-sky: (offset-x: -163px, offset-y: -106px, width: 16px, height: 13px);
+$sp-d2sf-world-sm-gray: (offset-x: -200px, offset-y: -106px, width: 13px, height: 13px);
+$sp-d2sf-world-sm-white: (offset-x: -183px, offset-y: -106px, width: 13px, height: 13px);
+$sp-d2sf-youtube-gray: (offset-x: -74px, offset-y: -106px, width: 20px, height: 14px);
+$sp-d2sf-youtube-red: (offset-x: -98px, offset-y: -106px, width: 20px, height: 14px);
+$sp-d2sf-youtube-sm-gray: (offset-x: -108px, offset-y: -124px, width: 14px, height: 10px);
+$sp-d2sf-youtube-sm-white: (offset-x: -90px, offset-y: -124px, width: 14px, height: 10px);
+$sp-d2sf: (width: 239px,  height: 191px,  image: '../img/sp_d2sf.png',  sprites: ($sp-d2sf-angle-down, $sp-d2sf-angle-left-sm, $sp-d2sf-angle-left-tag, $sp-d2sf-angle-left-white-big, $sp-d2sf-angle-right-sm, $sp-d2sf-angle-right-tag, $sp-d2sf-angle-right-white-big, $sp-d2sf-angle-up, $sp-d2sf-angle-up-fill, $sp-d2sf-arrow-right-green, $sp-d2sf-arrow-right-white, $sp-d2sf-blog-sm-gray, $sp-d2sf-blog-sm-green, $sp-d2sf-clip-black, $sp-d2sf-close-big, $sp-d2sf-external-link-black, $sp-d2sf-external-link-green, $sp-d2sf-facebook-blue, $sp-d2sf-facebook-gray, $sp-d2sf-facebook-sm-blue, $sp-d2sf-facebook-sm-gray, $sp-d2sf-facebook-sm-white, $sp-d2sf-instagram-gray, $sp-d2sf-instagram-hover, $sp-d2sf-logo-d2sf, $sp-d2sf-logo-d2sf-color, $sp-d2sf-share-black, $sp-d2sf-share-white, $sp-d2sf-tail-sharesns, $sp-d2sf-twitter-sm-gray, $sp-d2sf-twitter-sm-sky, $sp-d2sf-world-sm-gray, $sp-d2sf-world-sm-white, $sp-d2sf-youtube-gray, $sp-d2sf-youtube-red, $sp-d2sf-youtube-sm-gray, $sp-d2sf-youtube-sm-white, ));
+
+@mixin sp-d2sf($sprite) {
+  display: inline-block;
+  width: map-get($sprite, 'width');
+  height: map-get($sprite, 'height');
+  background-image: url(../img/sp_d2sf.png);
+  background-position: map-get($sprite, 'offset-x') map-get($sprite, 'offset-y');
+  vertical-align: top;
+}
+
+@mixin sp-d2sf_on($sprite) {
+  background-position: map-get($sprite, 'offset-x') map-get($sprite, 'offset-y');
+}

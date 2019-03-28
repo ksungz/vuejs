@@ -1,0 +1,59 @@
+// apply
+.apply_card {
+	padding: 0 40px 0 0;
+	.card_img {
+		overflow:hidden;
+		width: 405px;
+	}
+}
+
+.apply_img {
+	.thumbnail {
+		width: 405px;
+		height: 216px;
+		margin: -31px 0 -55px 0;
+	}
+	img {
+		width: auto;
+		max-width: none;
+		height: 100%;
+	}
+}
+
+.apply_info {
+	padding: 30px 186px 34px 40px;
+	.text_carddesc {
+		height: 52px;
+		margin-top: 12px;
+	}
+}
+
+//외부 링크 목록
+.list_external {
+	margin-top: 22px;
+	li {
+		position: relative;
+		display: inline-block;
+		margin-right: 9px;
+		padding-right: 12px;
+		&:last-child:before {
+			display: none;
+		}
+		&:before {
+			position: absolute;
+			top: 50%;
+			right: 0;
+			height: $line-height-contnets * 0.5em;
+			margin-top: -($line-height-contnets * 0.25em);
+			background: #ccc;
+			content: '';
+		}
+	}
+}
+
+.apply_area {
+	position: absolute;
+	top: 40px;
+	right: 0;
+	text-align: right;
+}

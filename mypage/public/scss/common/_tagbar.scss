@@ -1,0 +1,67 @@
+//상단 소팅 태그 영역
+.tagbar {
+	background-color: #fff;
+	.content_area {
+		padding: 14px 0;
+	}
+}
+
+.sortingtag_wrap {
+	overflow: hidden;
+}
+
+.list_sortingtag {
+	overflow: hidden;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	white-space: nowrap;
+	li {
+		display: inline-block;
+		vertical-align: top;
+		+li {
+			padding-left: 10px;
+		}
+	}
+}
+
+.btn_controll {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 30px;
+	padding: 22px 10px;
+	box-sizing: border-box;
+	background: transparent;
+	&[aria-disabled=true] {
+		display: none;
+	}
+	&.prev {
+		@include background-diagonal(rgba(255, 255, 255, 0), 0, rgba(255, 255, 255, 1), 40%, -90deg);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', endColorStr='#0cffffff', GradientType=1);
+		left: -10px;
+		text-align: left;
+		&:after {
+			@include sp-d2sf($sp-d2sf-angle-left-tag);
+			content: '';
+		}
+	}
+	&.next {
+		@include background-diagonal( rgba(255, 255, 255, 0), 0, rgba(255, 255, 255, 1), 40%, 90deg);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#0cffffff', endColorStr='#ffffff', GradientType=1);
+		right: -10px;
+		text-align: right;
+		&:after {
+			@include sp-d2sf($sp-d2sf-angle-right-tag);
+			content: '';
+		}
+	}
+}
+
+//라벨 + 인풋 그룹
+.radio_group {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
