@@ -1,12 +1,14 @@
 <template>
   <div>
-    메뉴1
+    메뉴1ss
   </div>
 </template>
 
 <script>
-export default {
+import Main from '../views/Main.vue';
 
+export default {
+  extends: Main
 }
 </script>
 
