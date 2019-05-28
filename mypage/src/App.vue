@@ -9,6 +9,16 @@
 import ToolBar from "./components/ToolBar.vue";
 
 export default {
+  data () {
+    return {
+      spa : [
+        {}
+      ],
+      login : [
+        {}
+      ],
+    }
+  },
   components: {
     ToolBar
   }
